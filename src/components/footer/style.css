@@ -1,0 +1,95 @@
+* {
+   font-family: "Futura",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"  
+}
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1238px;
+}
+img {
+    width: 65px;
+    height: 100px;
+    float: left;
+    margin-right: 8px;
+
+}
+.img-footer { 
+    display: flex;
+    margin-top: 23px;
+}
+.info {
+    margin-top: 6px;
+}
+.info > p,div {
+    margin : 0;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: left;
+}
+
+.info > div {
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.info > p {
+    font-size: 14px;
+}
+.buttons {
+    display: flex;
+}
+
+.buy-btn {
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    margin-right: 60px;
+    margin: 50px;
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+
+.close-btn {
+    position: relative;
+    bottom: 57px;
+    right: 6px;
+    font-size: 10px;
+    color: #000;
+    padding: 5px;
+    z-index: 1;
+}
+.close-btn > span {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold   ;
+}
+.buy-btn.active {
+    background-color: #000;
+    border-color: #000;
+}
+
